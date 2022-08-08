@@ -1,0 +1,70 @@
+
+h1{
+    color: blue;
+}
+
+.header{
+    font-weight: bold;
+    font-family: "Comic Sans MS", "Comic Sans";
+    background-color: rgb(228, 215, 215);
+    text-align: center;   
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.grid{
+    margin-top: 5px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;  
+    padding-top: 2px; 
+}
+
+.item{
+    background-color:#020202;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 2px; 
+    padding-top: 4px; 
+    padding-left: 5px; 
+    padding-right: 5px; 
+    position: relative;
+}
+
+.footer{
+    margin-top: 22px;
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+}
+
+a:link{
+    color:blue;
+}
+
+a:visited{
+    color:black;
+}
+
+p,h2{
+    text-align: center;
+    font-family: "Comic Sans MS", "Comic Sans";
+    color: white;
+}
+
+.item:hover img{
+    opacity: 0.33;
+    transform: scale(0.85)
+}
+
+.item p{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-45%,-80%);
+    opacity: 0;
+}
+
+.item:hover p{
+    opacity: 1;
+}

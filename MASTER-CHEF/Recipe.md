@@ -1,0 +1,1 @@
+First you toast the bread to your liking. After that you spread butter on eavh peice of bread and face the butter side of the bread against each other.
